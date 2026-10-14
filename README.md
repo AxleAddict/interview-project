@@ -1,4 +1,4 @@
-# Array Comparison: Debugging Exercise
+# Debugging Exercise
 
 A maintenance assignment in an unfamiliar Java service. Work in the existing
 structure and add regression tests for your changes.
