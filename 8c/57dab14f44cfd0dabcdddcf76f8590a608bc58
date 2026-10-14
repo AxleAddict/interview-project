@@ -1,0 +1,19 @@
+README.md
+  s_1d8485d0b804df::t_c0c832d889b7e9 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8c57dab14f44cfd0dabcdddcf76f8590a608bc58",
+  "prompts": {},
+  "sessions": {
+    "s_1d8485d0b804df": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "da3b387b-4d1c-4fc0-b7d6-e5b9dfd1ff2b",
+        "model": "copilot/gpt-6.1-sol"
+      },
+      "human_author": "AxleAddict <28988529+AxleAddict@users.noreply.github.com>"
+    }
+  }
+}
