@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:8080
+
+### Existing contract: commonElements must be [6, 19]
+POST {{baseUrl}}/api/arrays/common-elements
+Content-Type: application/json
+
+{"left":[4,5,6,12,2,6,19,1],"right":[7,19,3,6]}
+
+### Empty arrays are valid
+POST {{baseUrl}}/api/arrays/common-elements
+Content-Type: application/json
+
+{"left":[],"right":[6]}
+
+### Null elements are invalid: HTTP 400
+POST {{baseUrl}}/api/arrays/common-elements
+Content-Type: application/json
+
+{"left":[6,null],"right":[6]}
