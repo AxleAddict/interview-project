@@ -1,6 +1,6 @@
 package com.example.interview.service.impl;
 
-import com.example.interview.service.ArrayComparisonService;
+import com.example.interview.service.DebuggingService;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.Set;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ArrayComparisonServiceImpl implements ArrayComparisonService {
+public class DebuggingServiceImpl implements DebuggingService {
 
     @Override
     public List<Integer> findCommonElements(List<Integer> primaryNumbers, List<Integer> comparisonNumbers) {

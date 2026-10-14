@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>array-debugging-interview</artifactId>
+    <artifactId>debugging-exercise</artifactId>
     <version>1.0.0</version>
-    <name>Array Debugging Interview</name>
+    <name>Debugging Exercise</name>
     <description>A small debugging and requirements-clarification exercise.</description>
 
     <properties>

@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class ArrayComparisonResponse {
+public class DebuggingResponse {
 
     private final List<Integer> commonElements;
 }

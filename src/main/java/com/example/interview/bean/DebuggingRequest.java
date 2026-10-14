@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ArrayComparisonRequest {
+public class DebuggingRequest {
 
     @JsonAlias("right")
     @NotNull
