@@ -1,0 +1,35 @@
+README.md
+  s_1d8485d0b804df::t_b198117a41251e 91-96,98-99
+src/main/java/com/example/interview/Application.java
+  s_1d8485d0b804df::t_6487c145523cb5 7,10
+src/main/java/com/example/interview/bean/CommonElementsRequest.java
+  s_1d8485d0b804df::t_238383af23e641 12
+src/main/java/com/example/interview/bean/CommonElementsResponse.java
+  s_1d8485d0b804df::t_d5db5e16702e6f 9
+src/main/java/com/example/interview/controller/CommonElementsController.java
+  s_1d8485d0b804df::t_2d6a2a693f7af5 3-5,16,18,21-22
+src/main/java/com/example/interview/service/CommonElementsService.java
+  s_1d8485d0b804df::t_b2abd23ec5871a 5
+src/main/java/com/example/interview/service/impl/CommonElementsServiceImpl.java
+  s_1d8485d0b804df::t_e0dabca8bd80c9 3,11
+src/test/java/com/example/interview/controller/CommonElementsControllerTest.java
+  s_1d8485d0b804df::t_1f8c191db3a00a 23
+src/test/java/com/example/interview/service/CommonElementsServiceImplTest.java
+  s_1d8485d0b804df::t_f21c2f8391f2d4 5,14,16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5b0c824c739c95a2e71977eae3d440cd83153e4a",
+  "prompts": {},
+  "sessions": {
+    "s_1d8485d0b804df": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "da3b387b-4d1c-4fc0-b7d6-e5b9dfd1ff2b",
+        "model": "copilot/gpt-6.1-sol"
+      },
+      "human_author": "AxleAddict <28988529+AxleAddict@users.noreply.github.com>"
+    }
+  }
+}
