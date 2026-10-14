@@ -1,0 +1,39 @@
+README.md
+  s_1d8485d0b804df::t_399512af037af3 91-96,98-99
+pom.xml
+  s_1d8485d0b804df::t_7e5f8e1cca23a0 15,17
+src/main/java/com/example/interview/DebuggingApplication.java
+  s_1d8485d0b804df::t_4fbb6decbb5aea 7,10
+src/main/java/com/example/interview/bean/DebuggingRequest.java
+  s_1d8485d0b804df::t_335b22e7a0698f 12
+src/main/java/com/example/interview/bean/DebuggingResponse.java
+  s_1d8485d0b804df::t_20b6fbc351b639 9
+src/main/java/com/example/interview/controller/DebuggingController.java
+  s_1d8485d0b804df::t_1706e4d6bb1f25 3-5,16,18,21-22
+src/main/java/com/example/interview/service/DebuggingService.java
+  s_1d8485d0b804df::t_aaa6052f58f397 5
+src/main/java/com/example/interview/service/impl/DebuggingServiceImpl.java
+  s_1d8485d0b804df::t_25bbb1bafc96fe 3,11
+src/main/resources/application.properties
+  s_1d8485d0b804df::t_786a8207c86996 1
+src/test/java/com/example/interview/controller/DebuggingControllerTest.java
+  s_1d8485d0b804df::t_f8e60e5aee6c5b 23
+src/test/java/com/example/interview/service/DebuggingServiceImplTest.java
+  s_1d8485d0b804df::t_9799fe12357822 5,14,16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "df93e97c6910ad95637c513bc45da8e6b42a1353",
+  "prompts": {},
+  "sessions": {
+    "s_1d8485d0b804df": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "da3b387b-4d1c-4fc0-b7d6-e5b9dfd1ff2b",
+        "model": "copilot/gpt-6.1-sol"
+      },
+      "human_author": "AxleAddict <28988529+AxleAddict@users.noreply.github.com>"
+    }
+  }
+}
