@@ -20,7 +20,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class DebuggingControllerTest {
+class CommonElementsControllerTest {
 
     private static final String ENDPOINT = "/api/arrays/common-elements";
 

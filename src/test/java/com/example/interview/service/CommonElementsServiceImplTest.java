@@ -2,7 +2,7 @@ package com.example.interview.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.example.interview.service.impl.DebuggingServiceImpl;
+import com.example.interview.service.impl.CommonElementsServiceImpl;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
@@ -11,9 +11,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class DebuggingServiceImplTest {
+class CommonElementsServiceImplTest {
 
-    private final DebuggingService service = new DebuggingServiceImpl();
+    private final CommonElementsService service = new CommonElementsServiceImpl();
 
     @ParameterizedTest
     @MethodSource("intersectionCases")

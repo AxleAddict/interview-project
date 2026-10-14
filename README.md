@@ -88,13 +88,13 @@ Product request:
 
 ```text
 src/main/java/com/example/interview/
-  DebuggingApplication.java
-  controller/DebuggingController.java
-  bean/DebuggingRequest.java
-  bean/DebuggingResponse.java
-  service/DebuggingService.java
-  service/impl/DebuggingServiceImpl.java
+  Application.java
+  controller/CommonElementsController.java
+  bean/CommonElementsRequest.java
+  bean/CommonElementsResponse.java
+  service/CommonElementsService.java
+  service/impl/CommonElementsServiceImpl.java
 src/test/java/com/example/interview/
-  controller/DebuggingControllerTest.java
-  service/DebuggingServiceImplTest.java
+  controller/CommonElementsControllerTest.java
+  service/CommonElementsServiceImplTest.java
 ```

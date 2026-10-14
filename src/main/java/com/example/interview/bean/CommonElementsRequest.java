@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class DebuggingRequest {
+public class CommonElementsRequest {
 
     @JsonAlias("right")
     @NotNull

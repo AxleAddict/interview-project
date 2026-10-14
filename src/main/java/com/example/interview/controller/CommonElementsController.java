@@ -1,8 +1,8 @@
 package com.example.interview.controller;
 
-import com.example.interview.bean.DebuggingRequest;
-import com.example.interview.bean.DebuggingResponse;
-import com.example.interview.service.DebuggingService;
+import com.example.interview.bean.CommonElementsRequest;
+import com.example.interview.bean.CommonElementsResponse;
+import com.example.interview.service.CommonElementsService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/arrays")
-public class DebuggingController {
+public class CommonElementsController {
 
-    private final DebuggingService debuggingService;
+    private final CommonElementsService commonElementsService;
 
     @PostMapping("/common-elements")
-    public DebuggingResponse findCommonElements(@Valid @RequestBody DebuggingRequest request) {
-        return new DebuggingResponse(debuggingService.findCommonElement(
+    public CommonElementsResponse findCommonElements(@Valid @RequestBody CommonElementsRequest request) {
+        return new CommonElementsResponse(commonElementsService.findCommonElement(
                 request.getPrimaryNumbers(), request.getComparisonNumbers()));
     }
 }
