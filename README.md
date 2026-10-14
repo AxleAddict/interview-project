@@ -1,7 +1,7 @@
 # Array Comparison: Debugging Exercise
 
-A short maintenance assignment in an unfamiliar Java service. Work in the existing
-structure, explain your investigation, and add regression tests for your changes.
+A maintenance assignment in an unfamiliar Java service. Work in the existing
+structure and add regression tests for your changes.
 No database, external service, authentication, or UI is needed.
 
 ## Setup
@@ -9,7 +9,6 @@ No database, external service, authentication, or UI is needed.
 - JDK 21 and Maven 3.9 or newer.
 - Open the project as a Maven project. Enable Lombok/annotation processing if your
   editor requires it; the Maven compiler is the build authority.
-- Allow about 75 minutes. Ask the interviewer about permitted tools before starting.
 
 On macOS, select Java 21 if Maven uses another JDK:
 
@@ -21,9 +20,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 mvn clean test
 mvn spring-boot:run
 ```
-
-The starting project does not build successfully. That is the first task, not a
-setup problem. Resolve build errors before investigating runtime behavior.
 
 ## Existing API Contract
 
@@ -65,34 +61,28 @@ The optional `requests.http` file contains additional requests.
 
 ## Tasks
 
-### 1. Restore the Build
+### 1. Run the Application
 
-Fix the compilation issue and start the application. Explain what failed and
-why your change addresses it. Avoid unrelated refactoring.
+Set up and run the application locally. Confirm that you can call the endpoint
+using the sample request.
 
-### 2. Correct the JSON Behavior
+### 2. Investigate a Reported Issue
 
-The sample request does not produce the documented response. Reproduce the
-problem, locate its root cause, and fix it without changing the API contract.
-Add a regression test at the boundary responsible for the defect.
+Users report that the API does not always return the expected results.
+Investigate the behavior against the documented API contract, resolve the
+underlying issue, and add regression coverage.
 
 ### 3. Extend the Behavior
 
 Product request:
 
-> Some clients need repeated matches, not just unique values. Add an optional
-> `matchMode`, keep existing clients working, and support larger lists.
-
-Clarify the requirement with the interviewer before implementation. Record the
-agreed behavior and examples, then implement it in the same endpoint. Consider
-correctness, backward compatibility, input validation, and algorithmic cost.
-Update a pre-existing test only when its contract has explicitly changed.
-
-## Handover
-
-Run `mvn clean verify`. Summarize the root causes, agreed requirements, tests,
-time/space complexity, and anything you did not complete. Do not suppress failing
-tests or remove assertions to make the build green.
+> Add an optional `matchMode` request field to the existing endpoint. `DISTINCT`
+> returns unique common values, as today; `ALL` returns repeated common values
+> when the inputs contain duplicates.
+>
+> Requests omitting `matchMode` must retain their current behavior. Increase the
+> supported input size to 100,000 elements per array, keeping the same endpoint
+> and response format.
 
 ## Layout
 
