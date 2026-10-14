@@ -1,0 +1,43 @@
+.gitignore
+  s_1d8485d0b804df::t_03e480d4e9ae37 1-6
+README.md
+  s_1d8485d0b804df::t_0887d59d640bc2 1-110
+pom.xml
+  s_1d8485d0b804df::t_350c3fb4c4b67e 1-61
+requests.http
+  s_1d8485d0b804df::t_2678c2a8a8f3e7 1-19
+src/main/java/com/example/interview/InterviewApplication.java
+  s_1d8485d0b804df::t_5bc9739bc4608a 1-12
+src/main/java/com/example/interview/bean/ArrayComparisonRequest.java
+  s_1d8485d0b804df::t_d06ff582d5d2b1 1-23
+src/main/java/com/example/interview/bean/ArrayComparisonResponse.java
+  s_1d8485d0b804df::t_e88d7e4da4776f 1-12
+src/main/java/com/example/interview/controller/ArrayComparisonController.java
+  s_1d8485d0b804df::t_86c951b59d1f4e 1-25
+src/main/java/com/example/interview/service/ArrayComparisonService.java
+  s_1d8485d0b804df::t_cb853cfc0ae06a 1-8
+src/main/java/com/example/interview/service/impl/ArrayComparisonServiceImpl.java
+  s_1d8485d0b804df::t_79561e68b7e2c6 1-23
+src/main/resources/application.properties
+  s_1d8485d0b804df::t_0d718f2f17e851 1-5
+src/test/java/com/example/interview/controller/ArrayComparisonControllerTest.java
+  s_1d8485d0b804df::t_54a02e99726abf 1-100
+src/test/java/com/example/interview/service/ArrayComparisonServiceImplTest.java
+  s_1d8485d0b804df::t_bfee0015ec4769 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a4c12d83639429b97377f0f330d0b71c4b9ef956",
+  "prompts": {},
+  "sessions": {
+    "s_1d8485d0b804df": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "da3b387b-4d1c-4fc0-b7d6-e5b9dfd1ff2b",
+        "model": "copilot/gpt-6.1-sol"
+      },
+      "human_author": "AxleAddict <28988529+AxleAddict@users.noreply.github.com>"
+    }
+  }
+}
